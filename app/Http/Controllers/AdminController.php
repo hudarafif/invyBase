@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Category;
+<<<<<<< HEAD
 use App\Models\Supplier;
+=======
+>>>>>>> 07beae1c1bcb49de7156c833f89af0f87f0de267
 
 class AdminController extends Controller
 {
@@ -47,6 +50,7 @@ class AdminController extends Controller
         $category->save();
         return redirect('/viewcategory');
     }
+<<<<<<< HEAD
 
     public function addSupplier()
     {
@@ -67,4 +71,6 @@ class AdminController extends Controller
         $suppliers=Supplier::all();
         return view('admin.viewsupplier',compact('suppliers'));
     }
+=======
+>>>>>>> 07beae1c1bcb49de7156c833f89af0f87f0de267
 }

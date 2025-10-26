@@ -24,6 +24,7 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/updatecategory/{id}', [AdminController::class, 'editCategory'])->name('admin.updatecategory');
     
     Route::post('/updatecategory/{id}', [AdminController::class, 'postUpdateCategory'])->name('admin.postupdatecategory');
+<<<<<<< HEAD
     
     Route::get('/addsupplier', [AdminController::class, 'addSupplier'])->name('admin.addsupplier');
     
@@ -31,6 +32,9 @@ Route::middleware(['auth', 'admin'])->group(function () {
     
     Route::get('/viewsupplier', [AdminController::class, 'viewSupplier'])->name('admin.viewsupplier');
     
+=======
+
+>>>>>>> 07beae1c1bcb49de7156c833f89af0f87f0de267
 });
 
 

@@ -28,12 +28,15 @@
                     <x-responsive-nav-link :href="route('admin.viewcategory')" :active="request()->routeIs('admin.viewcategory')">
                         {{ __('View Category') }}
                     </x-responsive-nav-link>
+<<<<<<< HEAD
                     <x-responsive-nav-link :href="route('admin.addsupplier')" :active="request()->routeIs('admin.addsupplier')">
                         {{ __('Add Supplier') }}
                     </x-responsive-nav-link>
                     <x-responsive-nav-link :href="route('admin.viewsupplier')" :active="request()->routeIs('admin.viewsupplier')">
                         {{ __('View Supplier') }}
                     </x-responsive-nav-link>
+=======
+>>>>>>> 07beae1c1bcb49de7156c833f89af0f87f0de267
                 </div>
             </div>
 
