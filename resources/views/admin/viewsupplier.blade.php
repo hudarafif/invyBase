@@ -25,10 +25,6 @@
                                             <tr>
                                                 <th scope="row">{{ $supplier->supplier_name }}</th>
                                                 <td>{{ $supplier->supplier_address}}</td>
-                                                <td> 
-                                                    <a href="{{ route('admin.deletecategory', $supplier->supplier_name) }}" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete
-                                                    <a href="{{ route('admin.updatecategory', $supplier->supplier_name) }}" class="btn btn-success ms-2">Update
-                                                </td>
                                             </tr>
                                         @endforeach
                                     </tbody>
