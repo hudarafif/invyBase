@@ -62,7 +62,7 @@ class AdminController extends Controller
         return redirect()->back();   
     }
 
-    public function vieSupplier()
+    public function viewSupplier()
     {
         $suppliers=Supplier::all();
         return view('admin.viewsupplier',compact('suppliers'));
